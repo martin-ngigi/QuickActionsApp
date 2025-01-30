@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct QuickActionsAppApp: App {
+    private let qaService = QAService.shared
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(qaService)
         }
     }
 }

@@ -11,6 +11,11 @@
 		A304758E2D4B711600EF396D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304758D2D4B711600EF396D /* ContentView.swift */; };
 		A30475902D4B711800EF396D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A304758F2D4B711800EF396D /* Assets.xcassets */; };
 		A30475942D4B711800EF396D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30475932D4B711800EF396D /* Preview Assets.xcassets */; };
+		A304759C2D4B74E400EF396D /* QuickActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304759B2D4B74E400EF396D /* QuickActionType.swift */; };
+		A304759E2D4B74FB00EF396D /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304759D2D4B74FB00EF396D /* FirstView.swift */; };
+		A30475A02D4B751200EF396D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304759F2D4B751100EF396D /* SecondView.swift */; };
+		A30475A22D4B752E00EF396D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30475A12D4B752E00EF396D /* SceneDelegate.swift */; };
+		A30475A42D4B754D00EF396D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30475A32D4B754D00EF396D /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,12 @@
 		A304758F2D4B711800EF396D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A30475912D4B711800EF396D /* QuickActionsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickActionsApp.entitlements; sourceTree = "<group>"; };
 		A30475932D4B711800EF396D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A304759A2D4B71B400EF396D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A304759B2D4B74E400EF396D /* QuickActionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionType.swift; sourceTree = "<group>"; };
+		A304759D2D4B74FB00EF396D /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		A304759F2D4B751100EF396D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		A30475A12D4B752E00EF396D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A30475A32D4B754D00EF396D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +63,17 @@
 		A304758A2D4B711600EF396D /* QuickActionsApp */ = {
 			isa = PBXGroup;
 			children = (
+				A304759A2D4B71B400EF396D /* Info.plist */,
 				A304758B2D4B711600EF396D /* QuickActionsAppApp.swift */,
 				A304758D2D4B711600EF396D /* ContentView.swift */,
 				A304758F2D4B711800EF396D /* Assets.xcassets */,
 				A30475912D4B711800EF396D /* QuickActionsApp.entitlements */,
 				A30475922D4B711800EF396D /* Preview Content */,
+				A304759B2D4B74E400EF396D /* QuickActionType.swift */,
+				A304759D2D4B74FB00EF396D /* FirstView.swift */,
+				A304759F2D4B751100EF396D /* SecondView.swift */,
+				A30475A12D4B752E00EF396D /* SceneDelegate.swift */,
+				A30475A32D4B754D00EF396D /* AppDelegate.swift */,
 			);
 			path = QuickActionsApp;
 			sourceTree = "<group>";
@@ -139,8 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A304759C2D4B74E400EF396D /* QuickActionType.swift in Sources */,
+				A30475A02D4B751200EF396D /* SecondView.swift in Sources */,
+				A304759E2D4B74FB00EF396D /* FirstView.swift in Sources */,
 				A304758E2D4B711600EF396D /* ContentView.swift in Sources */,
+				A30475A42D4B754D00EF396D /* AppDelegate.swift in Sources */,
 				A304758C2D4B711600EF396D /* QuickActionsAppApp.swift in Sources */,
+				A30475A22D4B752E00EF396D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +296,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickActionsApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -312,6 +335,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickActionsApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
