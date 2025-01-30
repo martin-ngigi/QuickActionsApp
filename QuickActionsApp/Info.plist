@@ -6,15 +6,23 @@
 	<array>
 		<dict>
 			<key>UIApplicationShortcutItemTitle</key>
-			<string>first</string>
+			<string>First View</string>
 			<key>UIApplicationShortcutItemType</key>
 			<string>FirstView</string>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeSearch</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Navigate to view 1</string>
 		</dict>
 		<dict>
 			<key>UIApplicationShortcutItemTitle</key>
-			<string>second</string>
+			<string>Second View</string>
 			<key>UIApplicationShortcutItemType</key>
 			<string>SecondView</string>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeHome</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Navigate to view 2</string>
 		</dict>
 	</array>
 </dict>

@@ -14,7 +14,6 @@ struct FirstView: View {
     var body: some View {
         VStack {
             Text("this is the first view")
-                .background(Color.white)
             Button("dismiss") {
                 dismiss()
             }
